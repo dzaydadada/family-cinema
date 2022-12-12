@@ -1319,18 +1319,18 @@ hr {
         font-size: 5px;
     }
     }
-    .header{
+.header{
         background-color: #1113;
     }
-    .slide-trailor{
+.slide-trailor{
         margin: 20px;
     }
-    .row h2{
+.row h2{
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
     }
-    @media only screen and (max-width: 550px){
+ @media only screen and (max-width: 550px){
         .hero-area-slide{
             margin-top: 200px!important;
         }
