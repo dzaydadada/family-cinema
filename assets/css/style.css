@@ -222,7 +222,7 @@ textarea:focus {
     display: table-cell;
     vertical-align: middle;
 }
-.theme-btn {
+.login-popup{
 	background: #eb315a;
     border: 1px solid #eb315a;
     color: #fff;
@@ -233,7 +233,18 @@ textarea:focus {
 	cursor: pointer;
 	font-weight: 500;
 }
-.theme-btn:hover {
+.theme-btn{
+	background: #eb315a;
+    border: 1px solid #eb315a;
+    color: #fff;
+	border-radius: 35px;
+    padding: 5px 25px;
+    display: inline-block;
+    font-size: 16px;
+	cursor: pointer;
+	font-weight: 500;
+}
+.login-popup:hover {
     border: 1px solid #eb315a;
 	background: transparent;
     color: #eb315a;
@@ -667,15 +678,15 @@ hr {
     right: 420px;
 }
 .news-bg-1 {
-	background: url('../img/news/news1.jpg') no-repeat center / cover;
+	background: url('../img/john-wick-4-poster-grab.jpg') no-repeat center / cover;
     height: 350px;
 }
 .news-bg-2 {
-	background: url('../img/news/news2.jpg') no-repeat center / cover;
+	background: url('../img/tf-rise-beasts-trailer-grab.jpg') no-repeat center / cover;
     height: 350px;
 }
 .news-bg-3 {
-	background: url('../img/news/news3.jpg') no-repeat center / cover;
+	background: url('../img/wonder-woman-1984.jpg') no-repeat center / cover;
     height: 350px;
 }
 .news-date {
@@ -1314,6 +1325,30 @@ hr {
     .slide-trailor{
         margin: 20px;
     }
+    .row h2{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+    }
+    @media only screen and (max-width: 550px){
+        .hero-area-slide{
+            margin-top: 200px!important;
+        }
+        .logo{
+            width:65%;
+        }
+        .hero-area-content p{
+            font-size: 13px;
+        }
+        .hero-area-content h3{
+            margin-top: 25px;
+            font-size: 25px;       
+         }
+         .owl-item{
+            font-size: 10px;
+         }
+    }
+    
 /*--------------------------------------
 --------- Pre Loader Style END ---------
 ---------------------------------------*/

@@ -132,7 +132,7 @@
 	START - videos popup
 	------------------------------ */
 	// $('.popup-youtube').magnificPopup({type:'iframe'});
-	// //iframe scripts
+	// //iframe scri
 	// $.extend(true, $.magnificPopup.defaults, {  
 	// 	iframe: {
 	// 		patterns: {
