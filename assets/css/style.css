@@ -411,12 +411,21 @@ option {
 }
 
 .header-right form input {
+<<<<<<< HEAD
   background: transparent;
   color: #fff;
   border: none;
   margin: 0;
   border-left: 1px solid #ddd;
   margin-left: 20px;
+=======
+	background: transparent;
+	color: #fff;
+    border: none;
+    margin: 0;
+    border-left: 1px solid #ddd;
+    width: 35vw;
+>>>>>>> 9119f3aa4d67b23ce0e7a9af7863f5e22f35dc13
 }
 
 .header-right ul li a:hover {
