@@ -390,7 +390,7 @@ option {
     border: none;
     margin: 0;
     border-left: 1px solid #ddd;
-    margin-left: 20px;
+    width: 35vw;
 }
 
 .header-right ul li a:hover {
