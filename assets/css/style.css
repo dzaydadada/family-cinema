@@ -385,10 +385,17 @@ input::-webkit-input-placeholder {
   margin-left: auto;
 }
 .header-right form button {
+<<<<<<< HEAD
   background: transparent;
   color: #fff;
   border: none;
   padding-right: 10px;
+=======
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding-left: 20px;
+>>>>>>> 4960d76a9695f723a80ab48183bdeb60e130bd47
 }
 option {
   color: #000;
@@ -1384,6 +1391,49 @@ hr {
   }
 }
 
+<<<<<<< HEAD
+=======
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .site-footer{
+        font-size: 5px;
+    }
+    }
+.header{
+        background-color: #1113;
+    }
+.slide-trailor{
+        margin: 20px;
+    }
+.row h2{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+    }
+ @media only screen and (max-width: 550px){
+        .hero-area-slide{
+            margin-top: 300px!important;
+        }
+        .logo{
+            width:65%;
+        }
+        .hero-area-content p{
+            font-size: 13px;
+        }
+        .hero-area-content h3{
+            margin-top: 25px;
+            font-size: 25px;       
+         }
+         .owl-item{
+            font-size: 10px;
+         }
+    }
+    @media only screen and (max-width: 1000px){
+        .header-right form input{
+            width:fit-content;
+        }
+}
+    
+>>>>>>> 4960d76a9695f723a80ab48183bdeb60e130bd47
 /*--------------------------------------
 --------- Pre Loader Style END ---------
 ---------------------------------------*/
