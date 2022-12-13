@@ -798,7 +798,8 @@ hr {
 ------------------------------------*/
 .breadcrumb-area {
     position: relative;
-	padding: 200px 0 100px;
+    background-size: cover;
+	padding: 280px 0 200px;
 }
 .breadcrumb-area-content {
 	text-align: center;
@@ -1308,9 +1309,7 @@ hr {
   height: 100%;
   background: #fff url("../img/loader.gif") no-repeat center center;
 }  
-/*--------------------------------------
---------- Pre Loader Style END ---------
----------------------------------------*/
+
 @media only screen and (min-width: 768px) and (max-width: 959px){
     .site-footer{
         font-size: 5px;
@@ -1345,3 +1344,7 @@ hr {
             font-size: 10px;
          }
     }
+    
+/*--------------------------------------
+--------- Pre Loader Style END ---------
+---------------------------------------*/
