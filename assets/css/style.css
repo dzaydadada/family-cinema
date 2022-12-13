@@ -385,7 +385,6 @@ option {
 }
 
 .header-right form input {
-    width: auto;
 	background: transparent;
 	color: #fff;
     border: none;
@@ -799,11 +798,7 @@ hr {
 ------------------------------------*/
 .breadcrumb-area {
     position: relative;
-    background-image: url('../img/breadcrumb.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-	padding: 280px 0 200px;
+	padding: 200px 0 100px;
 }
 .breadcrumb-area-content {
 	text-align: center;
@@ -1313,7 +1308,9 @@ hr {
   height: 100%;
   background: #fff url("../img/loader.gif") no-repeat center center;
 }  
-
+/*--------------------------------------
+--------- Pre Loader Style END ---------
+---------------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
     .site-footer{
         font-size: 5px;
@@ -1348,7 +1345,3 @@ hr {
             font-size: 10px;
          }
     }
-    
-/*--------------------------------------
---------- Pre Loader Style END ---------
----------------------------------------*/
