@@ -168,3 +168,20 @@
 	
 
 }(jQuery));
+/**
+ * login
+ */
+   document.getElementById("btndangnhap").disabled=true;
+
+   function daoNutDN(){
+    var u = document.getElementById("un").value;
+    var p = document.getElementById("mk").value;
+    if (u.length>0 && p.length>0) 
+        document.getElementById("btndangnhap").disabled=false;
+    else
+        document.getElementById("btndangnhap").disabled=true;
+}
+function daoTT() {
+    var mk = document.getElementById("mk");
+    mk.type = (mk.type === "password")? "text":"password";
+}  

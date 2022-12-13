@@ -131,7 +131,7 @@ input[type="password"],
 input[type="number"],
 textarea {
   background: #24262d;
-  width: 100%;
+  width: 94%;
   padding: 8px 15px;
   border: none;
 }
@@ -1162,9 +1162,9 @@ hr {
 
 .login-box {
   max-width: 380px;
-  background: #fff;
+  background: #03090e;
   position: relative;
-  color: #03090e;
+  color: whitesmoke!important;
   margin: 200px auto 0;
   padding: 40px 25px 25px;
 }
@@ -1188,18 +1188,15 @@ hr {
 
 .login-box h2 {
   text-align: center;
-  color: #03090e;
   margin-bottom: 20px;
 }
 
 .login-box h6 {
-  color: #03090e;
   margin-bottom: 12px;
 }
 
 .login-box input {
   margin-bottom: 20px;
-  background: transparent;
   border: 1px solid #ddd;
 }
 
@@ -1216,8 +1213,8 @@ hr {
 }
 
 .login-box form .theme-btn {
+  background-color: #eb315a;
   width: 100%;
-  border-radius: 0;
   color: #fff;
   text-align: center;
   margin-top: 5px;
@@ -1425,6 +1422,9 @@ hr {
             width:fit-content;
         }
 }
+  .login-box .fa{
+    position: relative; left:-30px;cursor: pointer;
+  }
     
 /*--------------------------------------
 --------- Pre Loader Style END ---------
