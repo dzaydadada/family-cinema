@@ -411,7 +411,7 @@ option {
     border: none;
     margin: 0;
     border-left: 1px solid #ddd;
-    width: 35vw;
+    width: 35vw!important;
 }
 
 .header-right ul li a:hover {
