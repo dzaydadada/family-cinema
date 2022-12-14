@@ -411,7 +411,7 @@ option {
     border: none;
     margin: 0;
     border-left: 1px solid #ddd;
-    width: 35vw!important;
+    width: 30vw!important;
 }
 
 .header-right ul li a:hover {
@@ -1451,11 +1451,8 @@ hr {
     padding: 8px 15px;
     border: none;
   }
-  .login-popup input[type="text"]{
-    background: #24262d;
+  .login-box input[type="text"]{
     width: 94%;
-    padding: 8px 15px;
-    border: none;
   }
 
 /*--------------------------------------
