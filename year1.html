@@ -97,17 +97,20 @@
 						<h2>LOGIN</h2>
 						<form action="#">
 							<h6>USERNAME OR EMAIL ADDRESS</h6>
-							<input type="text" style="color: black;"/>
+							<input type="text" minlength="6" maxlength="20" onkeyup="daoNutDN()"  class="txt" id="un" name="un" placeholder="Type 6-20 words" autocomplete="off" autofocus />
 							<h6>PASSWORD</h6>
-							<input type="password" style="color: black;"/>
+							<input type="password" minlength="6" class="txt" id="mk" name="mk" placeholder="******" />
+							<i class="fa fa-eye" onclick="daoTT()"></i>
 							<div class="login-remember">
 								<input type="checkbox" />
 								<span>Remember Me</span>
 							</div>
 							<div class="login-signup">
-								<span><button type="button">SINGUP</button></span>
+								<span><button type="button" >SINGUP</button></span>
 							</div>
-							<a href="#" class="theme-btn">LOG IN</a>
+							<button type="submit" name="btndangnhap" id="btndangnhap" value="nut" class="theme-btn">
+								LOGIN
+							</button>					
 							<span>Or Via Social</span>
 							<div class="login-social">
 								<a href="#"><i class="icofont icofont-social-facebook"></i></a>
@@ -119,14 +122,15 @@
 						</form>
 						
 					</div>
-				</div><!-- header section end -->
+				</div>
+				<!-- header section end -->
 		<!-- breadcrumb area start -->
 		<section class="breadcrumb-area">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="breadcrumb-area-content">
-							<h1>Movies Page</h1>
+							<h1>Movie Sort By Year</h1>
 						</div>
 					</div>
 				</div>
