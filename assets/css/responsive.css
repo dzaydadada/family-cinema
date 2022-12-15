@@ -419,11 +419,8 @@ input[type="password"]{
     padding: 8px 15px;
     border: none;
   }
-  .login-popup input[type="text"]{
-    background: #24262d;
+  .login-box input[type="text"]{
     width: 90%;
-    padding: 8px 15px;
-    border: none;
   }
 
 }

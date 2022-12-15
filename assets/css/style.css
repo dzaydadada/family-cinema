@@ -411,7 +411,7 @@ option {
     border: none;
     margin: 0;
     border-left: 1px solid #ddd;
-    width: 35vw!important;
+    width: 30vw!important;
 }
 
 .header-right ul li a:hover {
@@ -1363,7 +1363,7 @@ hr {
   overflow: visible;
   width: 100%;
   height: 100%;
-  background: #fff url("../img/loader.gif") no-repeat center center;
+  background: rgb(0, 0, 0) url("../img/loader.gif") no-repeat center center;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -1451,11 +1451,8 @@ hr {
     padding: 8px 15px;
     border: none;
   }
-  .login-popup input[type="text"]{
-    background: #24262d;
+  .login-box input[type="text"]{
     width: 94%;
-    padding: 8px 15px;
-    border: none;
   }
 
 /*--------------------------------------
